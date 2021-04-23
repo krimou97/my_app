@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.search-second-item {
+    display: flex;
+}
+
+.search-first-item img{
+    width: 370px;
+    height: 60px;
+}
+
+.search-second-item input {
+    width: 370px;
+    height: 45px;
+}
+
+.search-icon {
+    width: 50px;
+    height: 51px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-icon svg{
+    color: white;
+    width: 50px;
+    height: 24px;
+}
+
+.search-third-item {
+    border: black solid .5px; 
+    width: 250px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-icon svg {
+    width: 36px;
+    height: 23px;
+}
+
+.search-third-item h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.search-third-item p {
+    font-family: sans-serif;
+}
+
+div.text {
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+.arrow svg:hover {
+    transform: rotate(180deg);
+}

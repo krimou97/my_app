@@ -1,0 +1,49 @@
+.navbar-main {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #424242;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar-left, .navbar-right {
+    width: 5%;
+    height: inherit;
+}
+
+.navbar-content {
+    width: 74%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left-items, .navbar-right-items {
+    height: inherit;
+}
+
+.navbar-left-items {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-right-items {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right-items span {
+    cursor: pointer;
+}
+
+svg {
+    margin-right: 5px;
+}
