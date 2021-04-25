@@ -5,7 +5,7 @@ const Search = () => {
     return(
         <div className={'container'}>
             <div className={'search-first-item'} >
-                <img src='https://www.medicament.com/img/medicamentcom-vente-en-ligne-de-médicaments-logo-1502891216.jpg'/>
+                <img src='https://www.medicament.com/img/medicamentcom-vente-en-ligne-de-médicaments-logo-1502891216.jpg' alt='Logo'/>
             </div>
             <div className={'search-second-item'}>
                 <input type='text' placeholder='Search' />
